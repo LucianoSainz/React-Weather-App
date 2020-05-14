@@ -4,7 +4,13 @@ import React, { Component } from 'react';
 class App extends Component {
     render() {
         return (
-            <h1>Hi!</h1>
+            <div className="container p-4">
+                <div className="row">
+                    <div className="col-md-6">
+
+                    </div>
+                </div>
+            </div>
         )
     }
 }
