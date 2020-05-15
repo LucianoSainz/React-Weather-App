@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
-import weatherInfo from './components/WeatherInfo';
+import WeatherInfo from './components/WeatherInfo';
+import WeatherForm from './components/WeatherForm';
 
 class App extends Component {
     render() {
@@ -7,7 +8,8 @@ class App extends Component {
             <div className="container p-4">
                 <div className="row">
                     <div className="col-md-6">
-                       <weatherInfo/>
+                       <WeatherForm/>
+                       <WeatherInfo/>
                     </div>
                 </div>
             </div>
