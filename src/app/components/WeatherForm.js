@@ -10,7 +10,7 @@ const weatherForm = props => {
                 <div className="form-group">
                     <input type="text" name="country" placeholder="country" className="form-control" />
                 </div>
-                <button className="btn btn-dark btn-block">
+                <button className="btn btn-primary btn-block">
                     Get weather
                 </button>
             </form>
