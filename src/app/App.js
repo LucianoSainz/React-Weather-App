@@ -7,7 +7,7 @@ class App extends Component {
         return (
             <div className="container p-4">
                 <div className="row">
-                    <div className="col-md-6">
+                    <div className="col-md-6 mx-auto">
                        <WeatherForm/>
                        <WeatherInfo/>
                     </div>
