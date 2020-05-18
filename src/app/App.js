@@ -6,7 +6,9 @@ class App extends Component {
 
     getWeather = e => {
         const {city, country} = e.target.elements;
-        console.log(city, country);
+        const cityValue = city.value;
+        const countryValue = country.value;
+        console.log(cityValue, countryValue);
         e.preventDefault();
     } 
 
