@@ -3,7 +3,7 @@ import React from 'react';
 const weatherForm = props => {
     return (
         <div className="card card-body">
-            <form action="">
+            <form onSubmit={props.getWeather}>
                 <div className="form-group">
                     <input type="text" name="city" placeholder="city" className="form-control" autoFocus />
                 </div>
