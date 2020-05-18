@@ -5,7 +5,8 @@ import WeatherForm from './components/WeatherForm';
 class App extends Component {
 
     getWeather = e => {
-        console.log("submit");
+        const {city, country} = e.target.elements;
+        console.log(city, country);
         e.preventDefault();
     } 
 
