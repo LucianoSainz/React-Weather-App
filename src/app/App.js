@@ -30,6 +30,15 @@ class App extends Component {
         const data = await response.json();
         console.log(data);
 
+        this.setState({
+            temperature: data.main.temp,
+            description: data.weather[0].description,
+            humidity: data.main.humidity,
+            wind_speed: data.wind.speed,
+            city: data.name,
+            country: data.sys.country,
+            error: null
+        });
 
     }
 
