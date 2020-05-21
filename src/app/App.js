@@ -7,6 +7,17 @@ import { WEATHER_KEY } from './keys';
 
 class App extends Component {
 
+    state = {
+        temperature: '',
+        description: '',
+        himidity: '',
+        wind_speed: '',
+        city: '',
+        country: '',
+        error: null
+
+    }
+
     getWeather = async e => {
         e.preventDefault();
         const { city, country } = e.target.elements;
@@ -19,7 +30,7 @@ class App extends Component {
         const data = await response.json();
         console.log(data);
 
-        
+
     }
 
     render() {
