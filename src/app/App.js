@@ -10,7 +10,7 @@ class App extends Component {
     state = {
         temperature: '',
         description: '',
-        himidity: '',
+        humidity: '',
         wind_speed: '',
         city: '',
         country: '',
@@ -48,7 +48,7 @@ class App extends Component {
                 <div className="row">
                     <div className="col-md-6 mx-auto">
                         <WeatherForm getWeather={this.getWeather} />
-                        <WeatherInfo />
+                        <WeatherInfo {...this.state} />
                     </div>
                 </div>
             </div>
