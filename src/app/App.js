@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import WeatherInfo from './components/WeatherInfo';
 import WeatherForm from './components/WeatherForm';
+import Navbar from './components/Navbar';
 
 import { WEATHER_KEY } from './keys';
 
