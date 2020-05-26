@@ -49,6 +49,8 @@ class App extends Component {
 
     render() {
         return (
+            <>
+            <Navbar />
             <div className="container p-4">
                 <div className="row">
                     <div className="col-md-6 mx-auto">
@@ -57,6 +59,7 @@ class App extends Component {
                     </div>
                 </div>
             </div>
+            </>
         )
     }
 }
