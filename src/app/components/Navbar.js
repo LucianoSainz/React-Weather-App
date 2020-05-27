@@ -10,7 +10,7 @@ const Navigation = () => {
             <Navbar.Brand as="div"><Link to="/">Weather App</Link></Navbar.Brand>
             <Nav className="ml-auto">
                 <Nav.Link as="div"><Link to="/">Home</Link></Nav.Link>
-                <Nav.Link as="div"><Link to="/About">About us</Link></Nav.Link>
+                <Nav.Link as="div"><Link to="/AboutUs">About us</Link></Nav.Link>
             </Nav>
         </Navbar>
     )
