@@ -3,7 +3,6 @@ import Home from './components/Home';
 import Weather from './components/Weather';
 import AboutUs from './components/AboutUs';
 import Navbar from './components/Navbar';
-import Carousel from './components/carousel';
 import {Switch, Route} from 'react-router-dom';
 
 
