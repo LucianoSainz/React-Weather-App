@@ -9,9 +9,10 @@ const Component = () => {
             <h2>Welcome to weather app</h2>
             <h4>how our app works</h4>
             <ol>
-                <li></li>
-                <li></li>
-                <li></li>
+                <li>access web sample or download the app</li>
+                <li>enter the city and country</li>
+                <li>press get weather</li>
+                <li>you will get temperature, humidity and wind</li>
             </ol>
         </Container>
     )
