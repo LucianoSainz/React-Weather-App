@@ -1,12 +1,14 @@
 import React from 'react';
 import { Container } from 'react-bootstrap';
-
+import './Comp.css';
 
 const Component = () => {
 
     return (
         <Container>
-            <h2>Welcome to weather app</h2>
+            <div className="titleOne">
+                <h2>Welcome to weather app</h2>
+            </div>
             <h4>how our app works</h4>
             <ol>
                 <li>access web sample or download the app</li>
