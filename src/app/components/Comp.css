@@ -1,7 +1,21 @@
 .titleOne{
-    text-align: center;
+    display: flex;
+    justify-content: center;
     padding:20px 0 20px;
     margin-top: 20px;
     background-color: rgb(145, 54, 230);
     color:#fff;
+}
+
+.titleTwo{
+    display: flex;
+    padding-top: 20px;
+}
+
+.list{
+    display: flex;
+    justify-content: center;
+    padding-top: 15px;
+    font-size: 17px;
+
 }
