@@ -1,7 +1,7 @@
 import React, {Fragment} from 'react';
 import { Carousel } from 'react-bootstrap';
 import Component from './Component';
-
+import Footer from './Footer';
 
 const Home = () => {
 
@@ -38,6 +38,7 @@ const Home = () => {
         <>
         <Component/>
         </>
+        <Footer />
 </Fragment>
   )
 }

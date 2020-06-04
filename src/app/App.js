@@ -7,11 +7,11 @@ import {Switch, Route} from 'react-router-dom';
 
 
 
+
 const App = () => {
     return (
-      <Fragment>
       <>
-      
+    
         <Navbar />
 
         <Switch>
@@ -20,7 +20,6 @@ const App = () => {
            <Route path="/AboutUs" exact component={AboutUs} />
         </Switch>  
       </>
-     </Fragment>
      
     )
   }
