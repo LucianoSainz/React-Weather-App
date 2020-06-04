@@ -1,12 +1,10 @@
 import React from 'react';
-
+import './Foo.css';
 
 const Footer = () => {
     return (
-        <div className="icons">
-        <i className="fab fa-facebook"></i>
-        <i className="fab fa-twitter"></i>
-        <i className="far fa-envelope"></i>
+        <div className="copy">
+       <h4>created by LucianoS@inz</h4>
         </div>
        
     )
