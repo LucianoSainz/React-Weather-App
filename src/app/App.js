@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import Home from './components/Home';
 import Weather from './components/Weather';
 import AboutUs from './components/AboutUs';
@@ -9,7 +9,9 @@ import {Switch, Route} from 'react-router-dom';
 
 const App = () => {
     return (
+      <Fragment>
       <>
+      
         <Navbar />
 
         <Switch>
@@ -18,7 +20,8 @@ const App = () => {
            <Route path="/AboutUs" exact component={AboutUs} />
         </Switch>  
       </>
-      
+     </Fragment>
+     
     )
   }
   
